@@ -1,0 +1,25 @@
+import os.path
+from os import path
+
+def main():
+    return askinfo();
+
+def askinfo():
+    user = input("Enter your username: ")
+    password = input("Enter your password: ")
+    file();
+    
+def file():
+    fileDir=os.path
+    
+    
+   
+    
+    
+
+
+
+    
+if __name__ =="__main__":
+   main();
+    
