@@ -7,10 +7,13 @@ def main():
 def askinfo():
     user = input("Enter your username: ")
     password = input("Enter your password: ")
-    checkinfo();
+    checkinfo(user,password,checkpoint);
     
-def checkinfo():
-    match();
+def checkinfo(user,password,pointcheck):
+    match(pointcheck):
+        case"askinfo":
+            if
+    
     
     
    
@@ -23,4 +26,3 @@ def checkinfo():
 if __name__ =="__main__":
    main();
     
-
