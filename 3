@@ -1,0 +1,31 @@
+import os.path
+from os import path
+
+def main():
+    return askinfo();
+
+def askinfo():
+    global user
+    user = input("Enter your username: ")
+    password = input("Enter your password: ")
+    file();
+    
+def file():
+    global whichfilename
+    whichfilename=user
+    fileDir=os.path.dirname(os.path.realpath("__file__"));
+    adminfile = open(whichfilename,"x");
+
+    adminfile.close();
+    
+    
+   
+    
+    
+
+
+
+    
+if __name__ =="__main__":
+   main();
+    
